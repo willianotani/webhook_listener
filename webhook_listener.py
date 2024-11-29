@@ -19,11 +19,11 @@ def webhook_listener():
 
 def send_email(subject, body):
     # Email configuration
-    sender_email = "your_email@example.com"
-    receiver_email = "receiver_email@example.com"
-    smtp_server = "smtp.example.com"
+    sender_email = "no-reply@unicamp.br"
+    receiver_email = "massakiwillian@gmail.com"
+    smtp_server = "mailing.extecamp.unicamp.br"
     smtp_port = 587
-    smtp_password = "your_password"
+    smtp_password = "*Pro@SQ"
     
     # Create the email message
     msg = MIMEText(body)
